@@ -28,7 +28,7 @@ dist-ssr
 /index.html
 /package.json
 /package-lock.json
-/README.md
+
 /svelte.config.js
 /tsconfig.json
 /tsconfig.node.json
