@@ -1,0 +1,55 @@
+nav {
+    border: 1px solid black;
+    top: 0 !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20pt;
+    padding: 10px;
+}
+
+main {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    text-align: right;
+    min-width: 320px;
+    min-height: 100vh;
+    font-size: 15pt;
+}
+
+.link {
+    border: #1a1a1a 5px solid;
+    padding: 10px;
+    background-color: #012f5b;
+    color: aliceblue;
+}
+
+.deleteButton {
+    background-color: #012f5b;
+    color: aliceblue;
+}
+
+.task {
+    border: 1px solid black;
+    background-color: #213547;
+    width: 600px;
+}
+
+#newTaskInput {
+    font-size: 15pt;
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+}
+
+#newTaskInput > form > input {
+    font-size: 15pt;
+    width: 430px;
+    height: 45px;
+}
+
+#newTaskInput > form > button {
+    background-color: hotpink;
+}
